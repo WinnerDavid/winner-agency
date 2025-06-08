@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WINNER Agency – AI маркетинг майбутнього</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      margin: 0;
+      background: #0a0a0a;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(135deg, #0d0d0d, #1f1f1f);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://images.unsplash.com/photo-1629909613654-44a8a8cfb1fb') center/cover no-repeat;
+      opacity: 0.15;
+      z-index: 0;
+    }
+    header h1 {
+      font-size: 64px;
+      color: #f5c518;
+      margin: 0;
+      z-index: 1;
+    }
+    header p {
+      font-size: 22px;
+      color: #ddd;
+      max-width: 700px;
+      margin-top: 20px;
+      z-index: 1;
+    }
+    .cta-button {
+      margin-top: 40px;
+      padding: 18px 36px;
+      background-color: #f5c518;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      font-size: 18px;
+      text-decoration: none;
+      cursor: pointer;
+      z-index: 1;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    .cta-button:hover {
+      background-color: #e0b800;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    h2 {
+      color: #f5c518;
+      font-size: 30px;
+      margin-bottom: 30px;
+      border-left: 6px solid #f5c518;
+      padding-left: 16px;
+      text-transform: uppercase;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 16px 0;
+      font-size: 20px;
+      position: relative;
+      padding-left: 28px;
+    }
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #f5c518;
+    }
+    .video-section {
+      text-align: center;
+      margin-top: 60px;
+    }
+    .video-section video {
+      width: 100%;
+      max-width: 960px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact input, .contact textarea {
+      margin-bottom: 20px;
+      padding: 16px;
+      border: none;
+      border-radius: 10px;
+      background-color: #222;
+      color: #fff;
+      font-size: 18px;
+    }
+    .contact button {
+      padding: 16px;
+      background-color: #f5c518;
+      color: #000;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 10px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+    .contact button:hover {
+      background-color: #e0b800;
+    }
+    .contact p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    a {
+      color: #f5c518;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WINNER Agency</h1>
+    <p>AI-маркетинг майбутнього. Telegram, автоматизація, прибуток. Твій стратегічний партнер у цифрі.</p>
+    <a class="cta-button" href="#contact">Зв’язатися з нами</a>
+  </header>
+
+  <section class="services">
+    <h2>Що ми робимо</h2>
+    <ul>
+      <li>Просуваємо Telegram-боти, канали та AI-продукти</li>
+      <li>Створюємо Reels, AI-креативи та відео-контент</li>
+      <li>Запускаємо рекламу в Meta, TikTok, Google з аналітикою</li>
+      <li>Будуємо автоворонки з підписками, продажами та оплатами</li>
+      <li>Інтегруємо повні системи продажу під ключ</li>
+    </ul>
+  </section>
+
+  <section class="why">
+    <h2>Чому обирають WINNER</h2>
+    <ul>
+      <li>Ми створили свій продукт WINNER і знаємо, як це працює</li>
+      <li>Ми не просто ведемо рекламу — ми ведемо до прибутку</li>
+      <li>Наш фокус — автоматизація, масштабування і результат</li>
+    </ul>
+  </section>
+
+  <section class="case">
+    <h2>Кейс: як ми просуваємо Winner</h2>
+    <p>Бот, який набрав 5000+ трейдерів за 60 днів. Використали Reels, Telegram Ads, автоматизовану воронку та AI-аналітику. Все відстежується, звітується і масштабовано. Це не просто реклама — це система.</p>
+  </section>
+
+  <section class="video-section">
+    <h2>Прев'ю WINNER Agency</h2>
+    <video autoplay muted loop playsinline>
+      <source src="https://cdn.coverr.co/videos/coverr-working-on-laptop-9726/1080p.mp4" type="video/mp4">
+      Ваш браузер не підтримує відео.
+    </video>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Залишити заявку</h2>
+    <form>
+      <input type="text" placeholder="Ваше ім’я" required>
+      <input type="email" placeholder="Email або Telegram" required>
+      <input type="text" placeholder="Номер телефону" required>
+      <textarea placeholder="Що вас цікавить? Напишіть коротко…"></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+    <p>📞 Або зв’яжіться напряму: <br>
+      <strong><a href="tel:+380631959797">+38 (063) 195-97-97</a></strong><br>
+      <strong><a href="https://t.me/da_winner" target="_blank">@da_winner в Telegram</a></strong>
+    </p>
+  </section>
+</body>
+</html>
